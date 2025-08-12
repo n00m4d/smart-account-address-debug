@@ -1,0 +1,30 @@
+{
+  "name": "smart-account-address-debug",
+  "version": "1.0.0",
+  "description": "Debug script to generate smart account addresses for EVM and ZKSync chains",
+  "main": "debug-smart-account-address.js",
+  "type": "module",
+  "scripts": {
+    "start": "node debug-smart-account-address.js",
+    "debug": "node debug-smart-account-address.js"
+  },
+  "bin": {
+    "debug-smart-account": "./debug-smart-account-address.js"
+  },
+  "keywords": [
+    "smart-account",
+    "ethereum",
+    "zksync",
+    "address-generation",
+    "web3",
+    "blockchain"
+  ],
+  "author": "n00m4d",
+  "license": "ISC",
+  "dependencies": {
+    "viem": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
